@@ -126,3 +126,55 @@ flex-shrink: 0;
 svg{
     padding-right: 2px;
 }
+
+/* .img-dev{
+    color: rgba(24, 24, 24, 0.15);
+    font-family: Open Sans;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 33px;
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom  right;
+    text-align: left;
+    width: 774;
+    height: 136;
+    padding: 38px 0px 25px 23px; 
+    
+
+}
+.img-dev header{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* shared items */
+
+.section-title{
+        color: #181818;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+}
+
+
+/* Main section styles */
+
+/* about section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px 2800px 230px;
+    
+}
+
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
