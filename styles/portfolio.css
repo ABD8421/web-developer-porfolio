@@ -173,18 +173,18 @@ svg{
 }
 
 .section-des{
-    text-align:center;
+    color: #757575;
+    font-weight: 400px;
+    text-align: center;
+    font-family: Open Sans;
     font-size: 18px;
     display: flex;
-width: 827px;
-flex-direction: column;
-flex-shrink: 0;
-padding: 0px 156px 0px 156px;
-color: var(--dark-03, #757575);
-font-family: Open Sans;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    width: 827px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 0px 156px 0px 156px;
+    color: var(--dark-03, #757575);
+    line-height: 30px;
 }
 
 ul > li{
@@ -222,7 +222,7 @@ ul > li{
     padding: 130px;
     border-radius: 10px;
     background: none;
-    margin: 10px 230px 60px 230px;
+    margin: 0px 230px 60px 230px;
     
 }
 .section-title2{
@@ -236,16 +236,47 @@ ul > li{
     text-align:center;
     font-size: 18px;
     display: flex;
-width: 827px;
-flex-direction: column;
-flex-shrink: 0;
-padding: 0px 156px 0px 156px;
-color: var(--dark-03, #757575);
-font-family: Open Sans;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    width: 827px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 0px 156px 0px 156px;
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* javaScript,r,n,mong */
+
+.lg{
+     align-content: space-between;
+     width: 260px;
+     height: 360px;
+     border: none;
+     flex-shrink: 0;
+     border-radius: 5px;
+     background: #FFF;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     display: inline;
+     padding: right 40px;
+     text-align: left;
+    }
+
+.n{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p1{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
 
