@@ -46,6 +46,7 @@ nav a{
     font-style: normal;
     font-weight: 700;
     padding: 18px 35px 19px 36px;
+    cursor: pointer;
     
 }
 .btn-primary-2{
@@ -59,6 +60,7 @@ nav a{
     font-style: normal;
     font-weight: 700;
     padding: 18px 35px 19px 36px;
+    cursor: pointer;
 }
 
 /* header related styles */
@@ -356,4 +358,58 @@ margin-bottom: 140px;
 
 .download-icon{
     color: white;
+}
+
+
+/* footer section */
+footer{
+    background-color: #FFF8F3;
+}
+.footer{
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer1{
+    width: 600px;
+}
+
+.footer-bold{
+    color:  #181818;
+text-align: left;
+font-size: 35px;
+font-weight: 700;
+}
+
+.social-icon{
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.input-sim{
+    width: 461px;
+    height: 64px;
+    border: none;
+}
+.input-message{
+    border: none;
+    width: 461px;
+    height: 180px;
+}
+
+.submit{
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+color:  #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+border-radius: 5px;
+background: #FD6E0A;
+border: none;
+margin-bottom: 130px;
 }
