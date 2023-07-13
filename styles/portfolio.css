@@ -195,6 +195,11 @@ ul > li{
     text-align: center;
 
 }
+.li-sec{
+    align-items: center;
+    width: 120px;
+    height: 60px;
+}
 
 .section-c{
     background-color: #FFF8F3 ;
@@ -278,16 +283,57 @@ ul > li{
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    width: 195px;
+    height: 200px;
 }
 
 .java{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 200px;
-    margin-left: 230px;
+    margin-left: 240px;
     margin-right: 230px;
 }
 
 
 /* summary section  */
+
+.head-summary{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.summary-section{
+    margin-left: 230px;
+    margin-right: 270px;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.education{
+    width: 520px;
+    color: #474747;
+    font-weight: 700;
+}
+
+.subject{
+    color: #474747;
+font-weight: 700;
+}
+
+.institution-year{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+
+.sub-des{
+    color:  #757575;
+line-height: 28px; /* 175% */
+}
+
 
